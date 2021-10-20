@@ -1,0 +1,144 @@
+#title{
+  background-color: #ff4c68;
+  color: white;
+
+}
+
+body{
+  font-family:"Montserrat-bold";
+}
+.heading{
+  font-family: 'Montserrat-black', sans-serif;
+  size: 3rem;
+  line-height: 2;
+}
+.container-fluid{
+  padding:3% 15% 13% 15%;
+}
+.navbar-brand{
+  font-family:"Ubuntu";
+  font-size:2.5rem;
+  color:white;
+}
+#features{
+
+  font-family:"Montserrat-bold";
+  padding: 7% 15%;
+  background-color: white;
+  position:relative;
+
+
+}
+.feature{
+
+  line-height: 1.5rem;
+  color:#ef8172;
+  margin:auto;
+
+
+}
+.main{
+  text-align: center;
+  padding: 20px;
+}
+
+.describe{
+  font-family:"Montserrat";
+  color:grey;
+  text-align: center;
+  width:70%;
+  margin-left:auto;
+  margin-right:auto;
+}
+.feature:hover{
+  color:#ff4c68;
+}
+
+.carousel-item{
+  text-align:center;
+  background-color:#ff4c68;
+  padding: 7% 20%;
+  color:white;
+}
+
+.white-h2{
+  font-family:"Montserrat-bold";
+  color: white;
+  line-height: 1.5;
+  font-size:3rem;
+}
+
+.dog-img{
+  width:10%;
+  border-radius: 50%;
+  margin:20px;
+}
+
+#press{
+  background-color: #ff4c68;
+  padding:50px;
+
+}
+.press-img{
+  width:20%;
+  margin:20px;
+}
+#testimonials{
+  background-color:#ef8172;
+  text-align:center;
+  color:white;
+}
+#pricing{
+  padding: 100px;
+  text-align:center;
+  margin:30px;
+}
+.iphone-img{
+  width:50%;
+  transform: rotate(23.5deg);
+  position:absolute;
+  right:30%;
+
+  }
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+  color:white;
+  font-family:"Montserrat-black";
+  margin:auto;
+  line-height: 4;
+}
+#footer{
+  background-color: white;
+  text-align: center;
+  padding:7% 15%;
+  color:grey;
+}
+
+.dog-life{
+  font-size: 3.5rem;
+  padding: 4% 10%
+
+}
+.Copyright{
+  margin-top:3%;
+
+}
+.last{
+  padding: 1.5%;
+  color: grey;
+}
+@media (max-width:1028px){
+  #title{
+    text-align: center;
+  }
+  .iphone-img{
+    position:static;
+    transform: rotate(0);
+}
+  .card{
+    margin-top: 30px;
+  }
+}
